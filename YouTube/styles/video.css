@@ -1,0 +1,125 @@
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  padding-left: 263px;
+  padding-right: 24px;
+  padding-bottom: 56px;
+  padding-top: 24px;
+}
+
+@media (max-width: 1096px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .video-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1706px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-link {
+  text-decoration: none;
+}
+
+.channel-link{
+  text-decoration: none;
+  color: inherit;
+}
+
+  .thumbnail-row{
+    margin-bottom: 12px;
+    position: relative;
+  }
+    .thumbnail{
+      border-radius: 10px;
+      width: 100%;
+    }
+  .info-grid{
+      display: grid;
+      grid-template-columns: 48px 1fr;
+    }
+    .channel-picture{
+        width: 40px;
+      }
+        .profile-picture{
+          border-radius: 18px;
+          margin: 2px;
+          width: 36px;
+        }
+      .video-title{
+        color: rgb(241, 241, 241);
+        font-weight: 500;
+        line-height: 22px;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        width: 300.25;
+      }
+
+      .author-bar{
+        display: flex;
+        flex-direction: row;
+        vertical-align: center;
+        width: 269.6px;
+      }
+      .video-author{
+        color: rgb(170, 170, 170);
+        font-size: 14px;
+        height: 20px;
+      }
+
+      .video-author:hover{
+        color: rgb(235, 235, 235);
+      }
+
+      .checkmark{
+        width: 14px;
+        height: 14px;
+        padding-left: 4px;
+        margin-bottom: 1px;
+      }
+
+      .music-note{
+        width: 14px;
+        height: 14px;
+        padding-left: 4px;
+        margin-bottom: 1px;
+      }
+
+      .video-stats{
+        display: block;
+        color: rgb(170, 170, 170);
+        font-size: 14px;
+        height: 20px;
+      }
+
+      .video-time{
+        font-size: 12px;
+        font-weight: 500;
+        font-family: Roboto, Arial;
+        display: flex;
+        align-items: center;
+        width: 38.48;
+        height: 18px;
+        font-size: 12px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-radius: 4px; 
+        color: white;
+        position: absolute;
+        bottom: 12px;
+        right: 8px;
+        pointer-events: none;
+      }
