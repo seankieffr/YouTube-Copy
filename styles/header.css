@@ -36,6 +36,7 @@
     padding-right:14px;
     padding-top: 18px;
     padding-bottom: 18px;
+    cursor: pointer;
   }
 
   .country-code{
@@ -54,7 +55,7 @@
   flex: 1;
   padding-left: 4px;
   padding-right: 4px;
-  margin-left: 55px;
+  margin-left: 50px;
   max-width: 688px;
 }
 
@@ -89,7 +90,7 @@
     letter-spacing: normal;
     line-height: 22px;
     font-weight: 400;
-    color: rgb(117, 117, 117);
+    color: rgb(136, 136, 136);
   }
 
   .search-button{
@@ -111,7 +112,7 @@
     border-right-width: 0.8px;
     border-style: solid;
     border-color: rgb(48,48,48);
-    background-color: rgb(39,39,39);
+    background-color: rgb(34,34,34);
     cursor: pointer;
     margin-left: -0.8px;
   }
@@ -183,6 +184,7 @@
     border-style: none;
     background-color: rgb(39,39,39);
     transform: background-color 0.5s;
+    cursor: pointer;
   }
     .voice-search-button:hover{
       background-color: rgb(61,61,61);
@@ -197,12 +199,28 @@
 .right-section{
   flex-shrink: 0px;
   margin-left: 69px;
-  margin-right: 6px;
   display: flex;
   align-items: center;
   width: 156px;
   justify-content: space-between;
 }
+
+.header-section-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: rgb(15,15,15);
+  cursor: pointer;
+}
+
+.header-section-button:hover{
+  background-color: rgb(39, 39, 39);
+}
+
   .create-icon{
     padding: 8px;
     height: 24px;
@@ -236,6 +254,7 @@
     border-radius: 22px;
     left: 20px;
     top: 4px;
+    pointer-events: none;
   }
 
   .user-picture-container{
@@ -248,8 +267,10 @@
     padding-right: 6px;
     padding-top: 1px;
     padding-bottom: 1px;
+    margin-right: -0.5px;
   }
   .current-user-picture{
     height: 32px;
     border-radius: 16px;
+    cursor: pointer;
   }

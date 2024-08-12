@@ -34,7 +34,8 @@
   padding-right: 12px;
   border-style: none;
   border-radius: 10px;
-  background-color: rgb(39, 39, 39)
+  background-color: rgb(39, 39, 39);
+  cursor: pointer;
 }
 
 .home-button:hover{
@@ -80,6 +81,7 @@
   border-style: none;
   border-radius: 10px;
   background-color: rgba(15, 15, 15);
+  cursor: pointer;
 }
 .side-button:hover{
   background-color: rgb(39, 39, 39);
@@ -106,6 +108,7 @@
   border-radius: 10px;
   background-color: rgba(15, 15, 15);
   line-height: 22px;
+  cursor: pointer;
 }
 
 .you-button:hover{
